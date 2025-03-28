@@ -57,6 +57,7 @@ public class ConsoleApp
         if (matchingPatrons.Count > 20)
         {
             Console.WriteLine("More than 20 patrons satisfy the search, please provide more specific input...");
+            Console.WriteLine("Maurice is Great");
             return ConsoleState.PatronSearch;
         }
         else if (matchingPatrons.Count == 0)
